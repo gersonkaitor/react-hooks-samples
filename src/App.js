@@ -1,3 +1,5 @@
+import CustomHookUseFetchSample from './components/CustomHookUseFetchSample';
+import CustomHookUseLocalStorage from './components/CustomHookUseLocalStorage';
 import UseCallbackSample from './components/UseCallbackSample';
 import UseMemoSample from './components/UseMemoSample';
 import UseRefSample from './components/UseRefSample';
@@ -11,8 +13,10 @@ function App() {
       <UseRefSample1/><div className="my-5 "style={{border: "1px solid red"}}></div>
       <UseRefSample/> 
       <UseMemoSample/>
-      */}
       <UseCallbackSample/>
+      <CustomHookUseFetchSample/>
+      */}
+      <CustomHookUseLocalStorage/>
     </div>
   )
 }
