@@ -13,8 +13,10 @@ function UseRefSample1() {
 
   return (
     <div>
-      <h1>Renders: {renders.current}</h1>
-      <h2>Previous Name State: {prevName.current}</h2>
+        <h1>useRef - Get Previous State</h1>
+        <hr />
+      <h3>Renders: {renders.current}</h3>
+      <h3>Previous Name State: {prevName.current}</h3>
       <input
         type="text"
         value={name}

@@ -14,6 +14,8 @@ function UseRefSample() {
 
   return (
     <div>
+    <h1>useRef - Create DOM References</h1>
+    <hr />
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Name</label>
         <input
