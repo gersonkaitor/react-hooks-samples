@@ -9,7 +9,7 @@ function UseRefSample2() {
       <h1>useRef - Memory Leak Error Fix</h1>
       <hr />
       {showTodo && <Todo/> }
-      <button className="btn btn-primary" onClick={() => setShowTodo(!showTodo)}>Togggle Todo</button>
+      <button className="btn btn-primary" onClick={() => setShowTodo(!showTodo)}>Toggle Todo</button>
     </div>
   )
 }
